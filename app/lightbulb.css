@@ -1,0 +1,57 @@
+/* app/lightbulb.css */
+.theme-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 2rem;
+  color: currentColor;
+  transition: transform 0.2s;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.theme-toggle-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.theme-toggle__lightbulb {
+  transition: all 1.5s;
+  fill:black;
+  stroke:black;
+}
+
+.theme-toggle__lightbulb__coil {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 0.75s;
+}
+
+.theme-toggle__lightbulb__rays {
+  opacity: 0;
+  transition: opacity 0.75s;
+}
+
+/* Dark mode active */
+.theme-toggle[aria-pressed="true"] .theme-toggle__lightbulb {
+  fill: #fbbf24;
+  stroke: #fbbf24;
+}
+
+.theme-toggle[aria-pressed="true"] .theme-toggle__lightbulb__coil {
+  stroke-dashoffset: 0;
+}
+
+.theme-toggle[aria-pressed="true"] .theme-toggle__lightbulb__rays {
+  opacity: 1;
+}
