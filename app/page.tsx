@@ -90,9 +90,9 @@ export default function Home() {
           <div className="space-y-3">
             <a
               href="https://yuanologue.com"
-              className={`block w-full p-4 text-center rounded-lg transition-colors shadow-xl ${isDark
-                ? 'border border-stone-700 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
-                : 'border border-stone-300 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
+              className={`block w-full p-4 text-center rounded-full transition-colors shadow-xl ${isDark
+                ? 'border border-stone-600 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
+                : 'border border-stone-200 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
                 }`}
             >
               <FontAwesomeIcon icon={faNewspaper} />
@@ -101,9 +101,9 @@ export default function Home() {
 
             <a
               href="https://github.com/brownishgreen"
-              className={`block w-full p-4 text-center rounded-lg transition-colors shadow-xl ${isDark
-                ? 'border border-stone-700 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
-                : 'border border-stone-300 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
+              className={`block w-full p-4 text-center rounded-full transition-colors shadow-xl ${isDark
+                ? 'border border-stone-600 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
+                : 'border border-stone-200 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
                 }`}
             >
               <FontAwesomeIcon icon={faGithub} size="lg" />
@@ -112,9 +112,9 @@ export default function Home() {
 
             <a
               href="https://x.com/yuanologue"
-              className={`flex items-center justify-center w-full p-4 rounded-lg transition-colors shadow-xl ${isDark
-                ? 'border border-stone-700 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
-                : 'border border-stone-300 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
+              className={`flex items-center justify-center w-full p-4 rounded-full transition-colors shadow-xl ${isDark
+                ? 'border border-stone-600 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
+                : 'border border-stone-200 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
                 }`}
             >
               <FontAwesomeIcon icon={faXTwitter} size="lg" />
