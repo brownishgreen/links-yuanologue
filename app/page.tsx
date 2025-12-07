@@ -8,7 +8,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import Iridescence from './components/Iridescence'
 import { faNewspaper } from '@fortawesome/free-solid-svg-icons'
 export default function Home() {
-  const [isDark, setIsDark] = useState(false)
+  const [isDark, setIsDark] = useState(true)
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -95,7 +95,7 @@ export default function Home() {
                 : 'border border-stone-200 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
                 }`}
             >
-              <FontAwesomeIcon icon={faNewspaper} />
+              <FontAwesomeIcon icon={faNewspaper} style={{ width: '1em', height: '1em', display: 'inline-block' }} />
               Blog
             </a>
 
@@ -106,7 +106,7 @@ export default function Home() {
                 : 'border border-stone-200 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
                 }`}
             >
-              <FontAwesomeIcon icon={faGithub} size="lg" />
+              <FontAwesomeIcon icon={faGithub} size="lg" style={{ width: '1.33em', height: '1.33em', display: 'inline-block' }} />
               GitHub
             </a>
 
@@ -117,7 +117,7 @@ export default function Home() {
                 : 'border border-stone-200 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
                 }`}
             >
-              <FontAwesomeIcon icon={faXTwitter} size="lg" />
+              <FontAwesomeIcon icon={faXTwitter} size="lg" style={{ width: '1.33em', height: '1.33em', display: 'inline-block' }} />
               Twitter
             </a>
 

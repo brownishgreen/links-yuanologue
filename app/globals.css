@@ -21,5 +21,16 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-serif);
+}
 
+/* Prevent FontAwesome icon flash on load */
+svg[data-icon] {
+  width: 1em !important;
+  height: 1em !important;
+  display: inline-block;
+}
+
+svg[data-icon][data-size="lg"] {
+  width: 1.33em !important;
+  height: 1.33em !important;
 }
