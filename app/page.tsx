@@ -96,7 +96,7 @@ export default function Home() {
                 }`}
             >
               <FontAwesomeIcon icon={faNewspaper} style={{ width: '1em', height: '1em', display: 'inline-block' }} />
-              Blog
+              <span className="ml-2">Blog</span>
             </a>
 
             <a
@@ -107,7 +107,7 @@ export default function Home() {
                 }`}
             >
               <FontAwesomeIcon icon={faGithub} size="lg" style={{ width: '1.33em', height: '1.33em', display: 'inline-block' }} />
-              GitHub
+              <span className="ml-2">GitHub</span>
             </a>
 
             <a
@@ -118,7 +118,7 @@ export default function Home() {
                 }`}
             >
               <FontAwesomeIcon icon={faXTwitter} size="lg" style={{ width: '1.33em', height: '1.33em', display: 'inline-block' }} />
-              Twitter
+              <span className="ml-2">Twitter</span>
             </a>
 
 
@@ -127,7 +127,7 @@ export default function Home() {
           {/* Footer */}
           <div className={`text-center text-sm pt-8 ${isDark ? 'text-stone-200' : 'text-stone-600'
             }`}>
-            Made with 🥨 and ☕️
+            Made with 🥨 & ☕️
           </div>
         </div>
       </main>
