@@ -111,7 +111,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://x.com/yuanologue"
+              href="https://x.com/coconutbearrrr"
               className={`flex items-center justify-center w-full p-4 rounded-full transition-colors shadow-xl ${isDark
                 ? 'border border-stone-600 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
                 : 'border border-stone-200 text-stone-900 hover:bg-gradient-to-br from-stone-50 to-stone-200'
