@@ -88,7 +88,7 @@ export default function Home() {
 
           {/* Links Section */}
           <div className="space-y-3">
-            <a
+            {/* <a
               href="https://blog.yuanologue.com"
               className={`block w-full p-4 text-center rounded-full transition-colors shadow-xl ${isDark
                 ? 'border border-stone-600 text-white hover:bg-gradient-to-br from-stone-800 to-stone-900'
@@ -97,7 +97,7 @@ export default function Home() {
             >
               <FontAwesomeIcon icon={faNewspaper} style={{ width: '1em', height: '1em', display: 'inline-block' }} />
               <span className="ml-2">Blog</span>
-            </a>
+            </a> */}
 
             <a
               href="https://github.com/brownishgreen"
